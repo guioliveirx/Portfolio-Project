@@ -1,4 +1,4 @@
 # project-portfolio
  Portifólio desenvolvido em colaboração com @eudeda
 
-[https://guioliveirx.github.io/project-portfolio/index.html/]
+[https://guioliveirx.github.io/project-portfolio/index.html]
