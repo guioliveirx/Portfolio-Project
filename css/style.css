@@ -67,3 +67,16 @@ a {
     height: 1px;
     width: 90%;
 }
+
+.conteiner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.conteiner-btn > a{
+    display: flex;
+    height: 10px;
+}
