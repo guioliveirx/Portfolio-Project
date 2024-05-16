@@ -21,9 +21,11 @@
 }
 
 .content-img {
+    top: 0px;
+    left: 0px;
+    background-image: url(../assets/imgs/perfil-image.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: 30%;
     background-attachment: fixed;
     border-radius: 8px;
     height: 80%;
