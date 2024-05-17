@@ -7,4 +7,4 @@
 
 Você poderá acessar o site clicando logo abaixo:
 
-https://guioliveirx.github.io/project-portfolio/index.html
+https://guioliveirx.github.io/Project-Portfolio/
