@@ -21,6 +21,7 @@
     align-items: center;
     height: 10vh;
     width: 90%;
+    margin-bottom: 50px;
 }
 
 .cards-title {
@@ -95,7 +96,10 @@
     background-color: var(--cor02);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1462px) {
+    .container-cards-external-port, .container-cards-internal-port{
+        width: 90%;
+    }
     .cards-title h2 {
         font-size: 2em;
     }
@@ -190,6 +194,7 @@
     height: 50px;
     width: 300px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .social i {

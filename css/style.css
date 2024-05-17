@@ -31,6 +31,13 @@ a {
     font-size: 1.2em;
     background-color: var(--cor03);
     box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.267);
+    font-weight: 700;
+    margin-top: 60px;
+    padding: 15px 100px;
+    border: 0;
+    border-radius: 5px;
+    align-self: center;
+    transition: all 0.3s;
     
     /* short-hand em ordem trasition: ... */
     /* transition-property: transform;
@@ -38,13 +45,6 @@ a {
     transition-timing-function: ease;
     transition-delay: 0s; */
 
-    font-weight: 700;
-    margin-top: 40px;
-    padding: 15px 100px;
-    border: 0;
-    border-radius: 5px;
-    align-self: center;
-    transition: all 0.3s;
 }
 
 .btn:hover{
