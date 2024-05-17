@@ -18,54 +18,27 @@
     --contrast-font: "Freeman", sans-serif;
 }    
 
-a {
-    cursor: pointer;
-    text-decoration: none;
-}
-
+/* -- Configurações dos botões -- */
 .btn{
     cursor: pointer;
-    
+    align-self: center;
     font-family: var(--font);
-    color: white;
     font-size: 1.2em;
+    font-weight: 700;
+    color: white;
     background-color: var(--cor03);
     box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.267);
-    font-weight: 700;
     margin-top: 60px;
     padding: 15px 100px;
     border: 0;
-    border-radius: 5px;
-    align-self: center;
+    border-radius: 10px;
     transition: all 0.3s;
-    
-    /* short-hand em ordem trasition: ... */
-    /* transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s; */
-
 }
 
 .btn:hover{
     transform: translateY(-3px);
     background-color: var(--cor04);
     color: black;
-}
-
-.horizontal-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: 100%;
-}
-
-.row{
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
-    background-color: #00adb5;
-    height: 1px;
-    width: 90%;
 }
 
 .conteiner-btn{
@@ -80,3 +53,21 @@ a {
     display: flex;
     height: 10px;
 }
+/* --------------------------------*/
+
+/* -- Configuração da linha das seções */
+.horizontal-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.row{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+    background-color: #00adb5;
+    height: 1px;
+    width: 90%;
+}
+/* --------------------------------*/
