@@ -31,7 +31,7 @@
     background-size: cover;
     border-radius: 8px;
     height: 80%;
-    width: 50%;
+    width: 80%;
 
 }
 
@@ -70,17 +70,18 @@
 @media screen and (max-width: 378px){
     .hero{
         height: 110vh;
+        margin-top: 5vh;
     }
     .hero-container {
         display: flex;
         flex: 1;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
 
     .about-container{
-        width: 90%;
+        width: 95%;
     }
 
     .btn{
@@ -100,50 +101,43 @@
     }
     
     .content-img{
-        max-height: 300px;
-        min-height: 100px;
-        max-width: 250px;
-        min-width: 100px;
-        margin-top: 10px;
+        height: 200px;
+        width: 200px;
         margin-bottom: 10px;
         background-image: url(../assets/imgs/perfil-image.png);    
     }
     .about-container h1{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     .about-container h3{
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
     .about-container p{
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
 @media screen and (min-width: 378px) and (max-width: 768px){
     .hero{
+        margin-top: 5vh;
         height: 110vh;
     }
     .hero-container {
         display: flex;
         flex: 1;
         flex-direction: column;
-        width: 90%;
-        margin-top: 10vh;
+        width: 100%;
         height: 100%;
-        border: 1px solid red;
     }
 
     .about-container{
-        width: 90%;
+        width: 95%;
     }
     
     .content-img{
-        max-height: 450px;
-        min-height: 300px;
-        max-width: 350px;
-        min-width: 300px;
-        margin-bottom: 20px;
-        background-image: url(../assets/imgs/perfil-image.png);    
+        background-image: url(../assets/imgs/perfil-image.png); 
+        height: 300px;   
+        width: 300px;
     }
     .about-container h1{
         font-size: 2.1em;
@@ -158,15 +152,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1025px){
     .hero{
-        height: 115vh;
+        height: 100vh;
     }
     .hero-container {
         display: flex;
         flex: 1;
         flex-direction: column;
-        width: 80%;
-        height: 100%;
-        border: 1px solid red;
+        width: 90%;
     }
 
     .about-container{
@@ -174,12 +166,19 @@
     }
     
     .content-img{
-        margin-bottom: 20px;
-        min-height: 300px;
-        max-height: 500px;
-        min-width: 300px;
-        max-width: 500px;
-        background-image: url(../assets/imgs/perfil-image.png);    
+        background-image: url(../assets/imgs/perfil-image.png);   
+        height: 400px;
+        width: 400px;
+    }
+
+    .about-container h1{
+        font-size: 2.5em;
+    }
+    .about-container h3{
+        font-size: 1.4em;
+    }
+    .about-container p{
+        font-size: 1.2em;
     }
     
 }
@@ -191,12 +190,5 @@
         flex: 1;
         flex-direction: row;
         width: 60%;
-    }
-    
-    .content-img{      
-        min-height: 60%; 
-        max-height: 80%;
-        min-width: 60%;  
-    }
-    
+    }  
 }
