@@ -42,6 +42,10 @@
 }
 
 .form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     margin-bottom: 25px;
 }
 
@@ -54,7 +58,7 @@
 
 .form-input input {
     height: 30px;
-    width: 90%;
+    width: 100%;
     border: 0;
     border-radius: 5px;
     padding: 7px;
@@ -81,18 +85,22 @@
 }
 
 @media screen and (max-width: 1024px) { 
+    form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
     .form-img {
         display: none;
     }
     
     .form-container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
         width: 100%;
     } 
 
     .form-box {
-        width: 70%;
+        width: 80%;
     }
 }
