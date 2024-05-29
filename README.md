@@ -9,4 +9,4 @@
 
 Você poderá acessar o site clicando logo abaixo:
 
-<a href="https://guioliveirx.github.io/Project-Portfolio" target="_blanck" rel="external">Portifólio</a>
+🔗<a href="https://guioliveirx.github.io/Project-Portfolio" target="_blanck" rel="external">Portifólio</a>
