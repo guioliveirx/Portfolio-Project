@@ -7,5 +7,5 @@
 ##
 
 Você poderá acessar o site clicando logo abaixo:
-
-🔗<a href="https://guioliveirx.github.io/Project-Portfolio" target="_blanck" rel="external">Portifólio</a>
+<div align="center"><br> <a href="https://guioliveirx.github.io/Project-Portfolio" target="_blanck" rel="external"><img aling="center" src="https://github.com/guioliveirx/Portfolio-Project/blob/main/assets/imgs/site-portfolio.jpg?raw=true" img>
+</a></div>   
